@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Informasi meta untuk dokumen -->
+    <meta charset="UTF-8"> <!-- Karakter encoding diatur ke UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Menentukan kompatibilitas dengan Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mendefinisikan pengaturan viewport untuk responsivitas -->
+    <title>Tic Tac Toe</title> <!-- Judul dokumen -->
+    <link rel="icon" href="image/iconMK3.png" type="image/x-icon"> <!-- Bagian Icon/logo-->
+    <link rel="stylesheet" href="style.css"> <!-- Tautan ke file CSS untuk tampilan    -->
+</head>
+<body>
+    <!-- Container untuk menampilkan giliran saat ini -->
+    <div class="turn-container">
+        <h3>Klik Untuk Mulai</h3> <!-- Heading untuk memulai permainan -->
+        <div class="turn-box alignX">X</div> <!-- Tampilan untuk giliran pemain X -->
+        <div class="turn-box alignO">O</div> <!-- Tampilan untuk giliran pemain O -->
+        <div class="bg"></div> <!-- Container latar belakang -->
+    </div>
+
+    <!-- Grid untuk permainan Tic Tac Toe -->
+    <div class="main-grid">
+        <!-- Kotak-kotak dalam permainan -->
+        <div class="box align">0</div>
+        <div class="box align">1</div>
+        <div class="box align">2</div>
+        <div class="box align">3</div>
+        <div class="box align">4</div>
+        <div class="box align">5</div>
+        <div class="box align">6</div>
+        <div class="box align">7</div>
+        <div class="box align">8</div>
+    </div>
+
+    <!-- Tampilan untuk hasil permainan -->
+    <h2 id="results"></h2>
+
+    <!-- Tombol untuk ingin bermain lagi -->
+    <button id="play-again">Main Lagi</button>
+
+    <!-- Berkas JavaScript untuk logika permainan -->
+    <script src="script.js"></script>
+</body>
+</html>
